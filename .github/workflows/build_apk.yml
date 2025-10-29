@@ -5,6 +5,7 @@ on:
     branches: [ "thesecondchance" ]
   pull_request:
     branches: [ "thesecondchance" ]
+  workflow_dispatch:
 
 jobs:
   build:
